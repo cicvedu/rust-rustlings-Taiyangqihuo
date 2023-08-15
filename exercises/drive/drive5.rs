@@ -9,6 +9,7 @@
 
 
 extern {
+    #[link_name = "my_demo_function_alias"]
     fn my_demo_function(a:u32) -> u32;
     fn my_demo_function_alias(a:u32) -> u32;
 }
