@@ -5,10 +5,28 @@
 
 
 
+// fn main() {
+//     let mut res = 42;
+//     let option = Some(12);
+//     while let Some(x)=option{
+//         res += x;
+//     }
+//     println!("{}", res);
+// }
+
+// fn main() {
+//     let mut res = 42;
+//     let option = Some(12);
+//     match option{
+//         Some(x)=>res += x,
+//         _=>(),
+//     }
+//     println!("{}", res);
+// }
 fn main() {
     let mut res = 42;
     let option = Some(12);
-    while let Some(x)=option{
+    if let Some(x)=option{
         res += x;
     }
     println!("{}", res);
